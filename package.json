@@ -1,6 +1,6 @@
 {
-  "name": "@ubclaunchpad/vuepress-fathom",
-  "version": "1.0.0",
+  "name": "@ubclaunchpad/vuepress-plugin-fathom",
+  "version": "1.1.0",
   "description": "Vuepress plugin for Fathom Analytics",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ubclaunchpad/vuepress-fathom.git"
+    "url": "git+https://github.com/ubclaunchpad/vuepress-plugin-fathom.git"
   },
   "author": "UBC Launch Pad",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ubclaunchpad/vuepress-fathom/issues"
+    "url": "https://github.com/ubclaunchpad/vuepress-plugin-fathom/issues"
   },
-  "homepage": "https://github.com/ubclaunchpad/vuepress-fathom#readme",
+  "homepage": "https://github.com/ubclaunchpad/vuepress-plugin-fathom#readme",
   "dependencies": {
     "fathom-client": "^2.0.3",
     "path": "^0.12.7"
