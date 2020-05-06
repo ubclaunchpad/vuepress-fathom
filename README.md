@@ -1,4 +1,4 @@
-# vuepress-fathom ![npm (scoped)](https://img.shields.io/npm/v/@ubclaunchpad/vue-fathom)
+# vuepress-fathom ![npm (scoped)](https://img.shields.io/npm/v/@ubclaunchpad/vuepress-fathom)
 
 A simple VuePress plugin for Fathom Analytics.
 
