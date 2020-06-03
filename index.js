@@ -8,7 +8,8 @@ module.exports = (options = {}, context) => ({
     const fathomURL = options.fathomURL || siteConfig.fathomURL;
     const FATHOM_ID = siteID || false;
     const FATHOM_URL = fathomURL || undefined;
-    return { FATHOM_ID, FATHOM_URL };
+    const FATHOM_DOMAINS = domains ? domains.join(',') : undefined;
+    return { FATHOM_ID, FATHOM_URL, FATHOM_DOMAINS };
   },
 
   enhanceAppFiles: path.resolve(__dirname, 'enhanceAppFile.js')
